@@ -1,55 +1,72 @@
-# Cryptographic-Technique-for-Communication-System
+<h1>🔐 Cryptographic Technique for Secure Communication</h1>h1>
 <br>
-Project Overview
-This project presents a hybrid cryptographic method for enhancing the security of digital communications. It combines two classical ciphers—Vigenère Cipher and Polybius Square Cipher—to encrypt plaintext in two layers, improving resistance to common cryptographic attacks.
+A lightweight encryption system that combines Vigenère Cipher and Polybius Square Cipher to enhance security in communication systems.
 
-Authors
+📘 About the Project
+In today's digital world, securing sensitive data during transmission is critical. This project proposes a hybrid cryptographic model that integrates two classical encryption methods to make communication more secure and resilient against attacks like brute-force, frequency analysis, and chosen-plaintext attacks.
+
+This project was developed as part of the final year B.Tech curriculum at Shri Ramswaroop Memorial University.
+
+👨‍💻 Authors
 Sitlendra Pratap Singh (201810101110096)
 
 Abhay Singh Chauhan (201810101110079)
 
-Supervised by Ms. Kanchan Pandey
+Supervisor: Ms. Kanchan Pandey, Assistant Professor
 
-Shri Ramswaroop Memorial University
+🔧 Features
+✅ Vigenère Cipher for alphabetic substitution
 
-Key Features
-Uses a combination of substitution (Vigenère) and numerical encoding (Polybius)
+✅ Polybius Square for numeric encryption
 
-Python implementation suitable for low-resource systems
+✅ Hybrid flow increases complexity and confusion
 
-Improves resistance to brute-force and frequency analysis attacks
+✅ Implemented in Python for ease of testing and execution
 
-Tested using platforms like Google Colab and Spyder IDE
+🔄 How It Works
+Vigenère Cipher: Encrypts plaintext using a repeating key pattern.
 
-Encryption Process
-Vigenère Cipher is used to encrypt the plaintext using a keyword.
+Polybius Cipher: Converts the Vigenère output into numeric coordinates via a grid.
 
-Polybius Cipher is then applied to convert the output into a numeric code.
+🔤 Example
+Step	                Output
+Plaintext	            INDIA
+Key	                  AYUSH
+Vigenère Output	      ILXAH
+Polybius Output	      24 13 55 11 32
 
-Example:
-Plaintext: INDIA
+💻 Technologies Used
+Python 3.x
 
-Key: AYUSH
+Google Colab / Jupyter Notebook / Spyder IDE
 
-Vigenère Output: ILXAH
+🗂️ Project Structure
 
-Polybius Output: 24 13 55 11 32
+📁 cryptography-hybrid
+├── vigenere_cipher.py       # Handles Vigenère encryption
+├── polybius_cipher.py       # Handles Polybius conversion
+├── hybrid_encryption.py     # Runs both steps together
+└── README.md                # Project documentation
+🚀 Getting Started
+Clone this project or download the files.
 
-How to Use
-Run the Vigenère encryption function in Python with your input text and key.
+Run hybrid_encryption.py in your preferred Python environment.
 
-Pass the result into the Polybius cipher function.
+Follow the prompts to enter plaintext and a key.
 
-The final output will be a numeric ciphertext.
+Get the encrypted numeric output.
 
-Technologies Used
-Python 3
-
-Jupyter Notebook / Google Colab / Spyder
-
-Future Enhancements
+📈 Future Improvements
 Add support for digits and special characters
 
-Randomize Polybius grid for added security
+Allow grid randomization for the Polybius cipher
 
-Develop a graphical interface for easier use
+Create a GUI for user-friendly interaction
+
+📚 References
+Vigenère Cipher – Wikipedia
+
+Polybius Square – Wikipedia
+
+
+
