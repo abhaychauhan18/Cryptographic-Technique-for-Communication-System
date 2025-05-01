@@ -43,10 +43,10 @@ Google Colab / Jupyter Notebook / Spyder IDE
 ## 🗂️ Project Structure
 
 📁 cryptography-hybrid
-├── vigenere_cipher.py       # Handles Vigenère encryption
-├── polybius_cipher.py       # Handles Polybius conversion
-├── hybrid_encryption.py     # Runs both steps together
-└── README.md                # Project documentation
+- ├── vigenere_cipher.py       # Handles Vigenère encryption
+- ├── polybius_cipher.py       # Handles Polybius conversion
+- ├── hybrid_encryption.py     # Runs both steps together
+- └── README.md                # Project documentation
 
 ## 🚀 Getting Started
 - Clone this project or download the files.
