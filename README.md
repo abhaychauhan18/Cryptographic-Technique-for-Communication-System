@@ -8,11 +8,11 @@ In today's digital world, securing sensitive data during transmission is critica
 This project was developed as part of the final year B.Tech curriculum at Shri Ramswaroop Memorial University.
 
 ## 👨‍💻 Authors
-Sitlendra Pratap Singh (201810101110096)
+- Abhay Singh Chauhan (201810101110079)
 
-Abhay Singh Chauhan (201810101110079)
+- Sitlendra Pratap Singh (201810101110096)
 
-Supervisor: Ms. Kanchan Pandey, Assistant Professor
+- Supervisor: Ms. Kanchan Pandey, Assistant Professor
 
 ## 🔧 Features
 ✅ Vigenère Cipher for alphabetic substitution
@@ -24,21 +24,21 @@ Supervisor: Ms. Kanchan Pandey, Assistant Professor
 ✅ Implemented in Python for ease of testing and execution
 
 ## 🔄 How It Works
-Vigenère Cipher: Encrypts plaintext using a repeating key pattern.
+- Vigenère Cipher: Encrypts plaintext using a repeating key pattern.
 
-Polybius Cipher: Converts the Vigenère output into numeric coordinates via a grid.
+- Polybius Cipher: Converts the Vigenère output into numeric coordinates via a grid.
 
 ## 🔤 Example
-Step	                Output
-Plaintext	            INDIA
-Key	                  AYUSH
-Vigenère Output	      ILXAH
-Polybius Output	      24 13 55 11 32
+- Step	                Output
+- Plaintext	            INDIA
+- Key	                  AYUSH
+- Vigenère Output	      ILXAH
+- Polybius Output	      24 13 55 11 32
 
 ## 💻 Technologies Used
-Python 3.x
+- Python 3.x
 
-Google Colab / Jupyter Notebook / Spyder IDE
+- Google Colab / Jupyter Notebook / Spyder IDE
 
 ## 🗂️ Project Structure
 
@@ -65,9 +65,9 @@ Google Colab / Jupyter Notebook / Spyder IDE
 - Create a GUI for user-friendly interaction
 
 ## 📚 References
-Vigenère Cipher – Wikipedia
+- [ Vigenère Cipher – Wikipedia](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 
-Polybius Square – Wikipedia
+- [Polybius Square – Wikipedia](https://en.wikipedia.org/wiki/Polybius_square)
 
 
 
