@@ -49,20 +49,20 @@ Google Colab / Jupyter Notebook / Spyder IDE
 └── README.md                # Project documentation
 
 ## 🚀 Getting Started
-Clone this project or download the files.
+- Clone this project or download the files.
 
-Run hybrid_encryption.py in your preferred Python environment.
+- Run hybrid_encryption.py in your preferred Python environment.
 
-Follow the prompts to enter plaintext and a key.
+- Follow the prompts to enter plaintext and a key.
 
-Get the encrypted numeric output.
+- Get the encrypted numeric output.
 
 ## 📈 Future Improvements
-Add support for digits and special characters
+- Add support for digits and special characters
 
-Allow grid randomization for the Polybius cipher
+- Allow grid randomization for the Polybius cipher
 
-Create a GUI for user-friendly interaction
+- Create a GUI for user-friendly interaction
 
 ## 📚 References
 Vigenère Cipher – Wikipedia
