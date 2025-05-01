@@ -1,8 +1,8 @@
-<h1>🔐 Cryptographic Technique for Secure Communication</h1>h1>
+<h1>🔐 Cryptographic Technique for Secure Communication</h1>
 <br>
 A lightweight encryption system that combines Vigenère Cipher and Polybius Square Cipher to enhance security in communication systems.
 
-📘 About the Project
+## 📘 About the Project
 In today's digital world, securing sensitive data during transmission is critical. This project proposes a hybrid cryptographic model that integrates two classical encryption methods to make communication more secure and resilient against attacks like brute-force, frequency analysis, and chosen-plaintext attacks.
 
 This project was developed as part of the final year B.Tech curriculum at Shri Ramswaroop Memorial University.
