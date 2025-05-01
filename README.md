@@ -7,14 +7,14 @@ In today's digital world, securing sensitive data during transmission is critica
 
 This project was developed as part of the final year B.Tech curriculum at Shri Ramswaroop Memorial University.
 
-👨‍💻 Authors
+## 👨‍💻 Authors
 Sitlendra Pratap Singh (201810101110096)
 
 Abhay Singh Chauhan (201810101110079)
 
 Supervisor: Ms. Kanchan Pandey, Assistant Professor
 
-🔧 Features
+## 🔧 Features
 ✅ Vigenère Cipher for alphabetic substitution
 
 ✅ Polybius Square for numeric encryption
@@ -23,31 +23,32 @@ Supervisor: Ms. Kanchan Pandey, Assistant Professor
 
 ✅ Implemented in Python for ease of testing and execution
 
-🔄 How It Works
+## 🔄 How It Works
 Vigenère Cipher: Encrypts plaintext using a repeating key pattern.
 
 Polybius Cipher: Converts the Vigenère output into numeric coordinates via a grid.
 
-🔤 Example
+## 🔤 Example
 Step	                Output
 Plaintext	            INDIA
 Key	                  AYUSH
 Vigenère Output	      ILXAH
 Polybius Output	      24 13 55 11 32
 
-💻 Technologies Used
+## 💻 Technologies Used
 Python 3.x
 
 Google Colab / Jupyter Notebook / Spyder IDE
 
-🗂️ Project Structure
+## 🗂️ Project Structure
 
 📁 cryptography-hybrid
 ├── vigenere_cipher.py       # Handles Vigenère encryption
 ├── polybius_cipher.py       # Handles Polybius conversion
 ├── hybrid_encryption.py     # Runs both steps together
 └── README.md                # Project documentation
-🚀 Getting Started
+
+## 🚀 Getting Started
 Clone this project or download the files.
 
 Run hybrid_encryption.py in your preferred Python environment.
@@ -56,14 +57,14 @@ Follow the prompts to enter plaintext and a key.
 
 Get the encrypted numeric output.
 
-📈 Future Improvements
+## 📈 Future Improvements
 Add support for digits and special characters
 
 Allow grid randomization for the Polybius cipher
 
 Create a GUI for user-friendly interaction
 
-📚 References
+## 📚 References
 Vigenère Cipher – Wikipedia
 
 Polybius Square – Wikipedia
